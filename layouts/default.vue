@@ -7,6 +7,11 @@
 <script>
 import NavBar from '~/components/NavBar.vue'
 export default {
+  head (){
+    return {
+      titleTemplate: '% - Real World Events'
+    }
+  },
   components: {
     NavBar
   }
