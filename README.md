@@ -132,3 +132,7 @@ And replace the default Error Page
 Use an underscore as a prefix for dynamic routes
 
 !![image-20190713183919525](/Users/jsick/Library/Application Support/typora-user-images/image-20190713183919525.png)image-20190713183845484](/Users/jsick/Library/Application Support/typora-user-images/image-20190713183845484.png)
+
+**API Calls with Axios**
+
+npm install -g son-server

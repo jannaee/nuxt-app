@@ -7,7 +7,8 @@
 export default {
   head() {
     return {
-      title: 'Create an Event'
+      title: 'Event Listing'
+    }
   }
 }
 </script>
