@@ -9,6 +9,15 @@ export default {
     return {
       title: 'Event Listing'
     }
+  },
+  asyncData(context) {
+    return context.$axios
+      .get('http://localhost:3000/events')
+      .then((response) => {
+        return {
+          events: response.data
+        }
+      })
   }
 }
 </script>
